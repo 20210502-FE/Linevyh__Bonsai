@@ -1,13 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bonsai</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="header__nav">
+                    <a class="header__menu" href="/">
+                        Product
+                    </a>
+                    <div class="header__user">
+                        <a class="header__user-link header__user-link_log" href="#">Log In</a>
+                        <a class="header__user-link header__user-link_start" href="#">start free</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="banner">
+            <div class="container">
+                <div class="banner__content">
+                    <div class="banner__bg"></div>
+                    <div class="banner__content-main">
+                        <h1 class="banner__title">
+                            Everything you need to run your freelance business.
+                        </h1>
+                        <div class="banner__text">Bonsai’s all-in-one product suite with smart automation lets you focus
+                            on
+                            your passion, not your paperwork.
+                        </div>
+                        <form class="banner__form">
+                            <input class="banner__form-input" type="text" placeholder="Enter your email">
+                            <button class="banner__form-btn">START FREE</button>
+                        </form>
+                    </div>
+                    <img class="banner__img" src="assets/images/header-img.png" alt="image">
+                </div>
+            </div>
+        </section>
+        <section class="description">
+            <div class="container">
+                <h3 class="description__title">
+                    Make more, manage less
+                </h3>
+                <div class="description__text">
+                    Bonsai integrates and automates every step of your business so it runs seamlessly - from proposal to
+                    tax season.
+                </div>
+                <div class="description__compare">
+                    <div class="description-bg"></div>
+                    <div class="description__compare-content">
+                        <h4 class="description__compare-title">
+                            Without Bonsai
+                        </h4>
+                        <div class="description__compare-img description__compare-img_left">
+                            <img src="assets/images/description-img-without.png" alt="Without Bonsai">
+                        </div>
+                    </div>
+                    <div class="description__compare-content">
+                        <h4 class="description__compare-title">
+                            With Bonsai
+                        </h4>
+                        <div class="description__compare-img description__compare-img_right">
+                            <img src="assets/images/description-img-with.png" alt="With Bonsai">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__content">
+                    <div class="benefits__nav">
+                        <ul class="benefits__list">
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-propals"
+                                    href="#">Proposals</a></li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-contracts"
+                                    href="#">Contracts</a></li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-crm"
+                                    href="#">Client CRM</a></li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-time"
+                                    href="#">Time Tracking</a></li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-invoice"
+                                    href="#">Invoices</a></li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-task"
+                                    href="#">Task Tracking</a></li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-accounting"
+                                    href="#">Accounting & Taxes</a>
+                            </li>
+                            <li class="benefits__item"><a class="benefits__item-link benefits__item-link-form"
+                                    href="#">Forms</a></li>
+                        </ul>
+                    </div>
+                    <div class="benefits__filling">
+                        <div class="benefits__bg"></div>
+                        <h3 class="benefits__title">Win More Work</h3>
+                        <div class="benefits__text">
+                            With just a few clicks, you can craft structured proposals with clear estimates to close
+                            your deals faster.
+                        </div>
+                        <div class="benefits__link">
+                            <a href="#">Explore invoices</a>
+                        </div>
+                        <div class="benefits__img">
+                            <img src="assets/images/benefits__img.png" alt="benefits__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="guarantee">
+            <div class="container">
+                <h4 class="guarantee__title">
+                    Trusted by 250K+ freelancers and agencies.
+                </h4>
+                <div class="guarantee__text">
+                    Whether you’re just getting started or your business is booming, Bonsai has you covered.
+                </div>
+                <div class="guarantee__content">
+                    <div class="guarantee__content-left">
+                        <img class="guarantee__content-img" src="assets/icons/guarantee-right-img.png"
+                            alt="guarantee-img">
+                        <h5 class="guarantee__content-title">
+                            Built for All Work Types
+                        </h5>
+                        <p class="guarantee__content-text guarantee-left__text">
+                            We proudly back people with wide-ranging businesses—from design and marketing to
+                            development, writing, and photography.
+                        </p>
+                    </div>
+                    <div class="guarantee__content-right">
+                        <img class="guarantee__content-img" src="assets/icons/guarantee-left-img.png"
+                            alt="guarantee-img">
+                        <h5 class="guarantee__content-title">
+                            Built for Global Businesses
+                        </h5>
+                        <p class="guarantee__content-text guarantee-right__text">
+                            Bonsai has international coverage across the United States, Canada, UK, Australia and more,
+                            with 180 currencies supported.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="comments">
+            <div class="container">
+                <div class="comments__content">
+                    <div class="comments__bg"></div>
+                    <div class="comments__title">
+                        Don't just take it from us.
+                    </div>
+                    <div class="slider">
+                        <div class="slider__item">
+                            <div class="slider__item-img">
+                                <img class="slider__img" src="assets/images/slider-img-1.jpg" alt="David Mihm">
+                            </div>
+                            <div class="slider__item-content">
+                                <div class="slider__item-text">
+                                    "@bonsaiinc is probably my all time favorite freelance tool. hands down. the team is
+                                    super
+                                    responsive and accessible when i have questions."
+                                </div>
+                                <div class="slider__item-name">
+                                    David Mihm
+                                </div>
+                                <div class="slider__item-position">
+                                    Founder of TidingsCo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img">
+                                <img class="slider__img" src="assets/images/slider-img-2.jpg" alt="David Urbinati">
+                            </div>
+                            <div class="slider__item-content">
+                                <div class="slider__item-text">
+                                    "For all my Freelancer / Small Agency followers, I wish I’d discovered @bonsaiinc
+                                    long
+                                    ago -
+                                    great templated contract"
+                                </div>
+                                <div class="slider__item-name">
+                                    David Urbinati
+                                </div>
+                                <div class="slider__item-position">
+                                    Motion design / animation
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img">
+                                <img class="slider__img" src="assets/images/slider-img-3.jpg" alt="Roman Linevyh">
+                            </div>
+                            <div class="slider__item-content">
+                                <div class="slider__item-text">
+                                    Рекомендую&#128077;
+                                </div>
+                                <div class="slider__item-name">
+                                    Roman Linevyh
+                                </div>
+                                <div class="slider__item-position">
+                                    Front-end developer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="info__content">
+                    <div class="info__text">
+                        <p>It’s<span class="info__text info__content_green"> your </span>business.</p>
+                        <p>We’re just here to help.</p>
+                    </div>
+                    <button class="info__btn">start free</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__product">
+                    <div class="footer__title">PRODUCT</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Proposals</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Invoicing</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Client CRM</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Time Tracking</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Contracts</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Task Tracking</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Forms</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Accounting</a></li>
+                        <li class="footer__list-item footer__list-item_backdown"><a class="footer__list-link"
+                                href="#">Bonsai Tax</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Pricing</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Bonsai Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer__resourse">
+                    <div class="footer__title">FREE Resources</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Freelance Resources</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Freelance Blog by Bonsai</a>
+                        </li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">How to Write a Contract</a>
+                        </li>
+                        <li class="footer__list-item footer__list-item_backdown"><a class="footer__list-link"
+                                href="#">Online Signature Maker</a>
+                        </li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Self-Employed Taxes Hub</a>
+                        </li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Self-Employed Tax
+                                Calculator</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Self-Employed Tax
+                                Deductions</a></li>
+                    </ul>
+                    <div class="footer__pre-title">Templates</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Invoice Templates</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Proposal Templates</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Contract Templates</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Agreement Templates</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Scope of Work Templates</a>
+                        </li>
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Quote Templates</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Credit Note Templates</a>
+                        </li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Estimate Templates</a></li>
+                    </ul>
+                </div>
+                <div class="footer__about">
+                    <div class="footer__title">BONSAI</div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">About</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Support</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Twitter</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">LinkedIn</a></li>
+                        <li class="footer__list-item footer__list-item_backdown"><a class="footer__list-link"
+                                href="#">Legal</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">Affiliates</a></li>
+                        <li class="footer__list-item footer__list-item_backdown"><a class="footer__list-link"
+                                href="#">Write for Us</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link footer__list-link_arrow"
+                                href="#">Comparisons</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
